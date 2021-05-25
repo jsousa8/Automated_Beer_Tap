@@ -72,6 +72,9 @@
 ### Next Steps
 So now I need to complete the second docker image that will act as the middle person between my arduino and my initial docker image. That is why you will see a docker-compose.yaml file. These are good to use when managing multiple docker images at once and it is easier to have the containers communicate with each other. 
 
+### Check my youtube video
+[Youtube video](https://youtu.be/Dsof3aiYZY4)
+
 ### Sources 
 I have linked these already throught this document but I want to give credit again because they were great sources for me and maybe for you with any of your projects.
 
