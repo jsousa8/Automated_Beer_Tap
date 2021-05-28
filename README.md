@@ -13,7 +13,7 @@
 1. C++
     
 ## Flow Chart Diagram    
-![diagram](.Pictures&Videos/beerdiagram.png)
+![diagram](./Pictures&Videos/beerdiagram.png)
 
 ## How To Build
        
