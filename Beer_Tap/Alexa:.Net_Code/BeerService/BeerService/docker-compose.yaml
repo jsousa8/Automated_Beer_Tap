@@ -13,3 +13,4 @@ services:
             ASPNETCORE_kestrel__Certificates__Default__Password: IlikePI1243@
         volumes: 
             - /home/pi/https:/https/
+        restart: always
