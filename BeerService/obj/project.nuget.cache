@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BHzmAv91A9MtsX8HM+hvToM9JnJw7Bd+CAmp22iPPSs7imtzmUD1Y14S3ZZuQZOQ7m5tK0nVCQI0KE8Uj9KelQ==",
+  "dgSpecHash": "2xhFEZXsZP1dVwj18Ff7Uc9Ophd99ZUFJm7RymUWdO+ZwHZimkjWB4ok5om4jOXf7l7fjqaj30qC03ilfVp5ug==",
   "success": true,
-  "projectFilePath": "/Users/Jake/Programing/Automated_Beer_Tap/BeerService/BeerService.csproj",
+  "projectFilePath": "/Users/Jake/git/Automated_Beer_Tap/BeerService/BeerService.csproj",
   "expectedPackageFiles": [
     "/Users/Jake/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/Jake/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",

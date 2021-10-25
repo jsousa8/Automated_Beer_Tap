@@ -198,11 +198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Jake/Programing/Automated_Beer_Tap/BeerService/BeerService.csproj",
+      "projectUniqueName": "/Users/Jake/git/Automated_Beer_Tap/BeerService/BeerService.csproj",
       "projectName": "BeerService",
-      "projectPath": "/Users/Jake/Programing/Automated_Beer_Tap/BeerService/BeerService.csproj",
+      "projectPath": "/Users/Jake/git/Automated_Beer_Tap/BeerService/BeerService.csproj",
       "packagesPath": "/Users/Jake/.nuget/packages/",
-      "outputPath": "/Users/Jake/Programing/Automated_Beer_Tap/BeerService/obj/",
+      "outputPath": "/Users/Jake/git/Automated_Beer_Tap/BeerService/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/Jake/.config/NuGet/NuGet.Config"

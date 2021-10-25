@@ -1,7 +1,7 @@
 ﻿using System;
 namespace BeerService.Interface
 {
-    public interface IBeer
+    public interface IBeverage
     {
         /// <summary>
         /// Amount of ounces to pour

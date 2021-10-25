@@ -3,7 +3,7 @@ using BeerService.Interface;
 
 namespace BeerService
 {
-    public class Beer : IBeer
+    public class Beer : IBeverage
     {
         public string Ounces { get; set; }
         public bool Status { get; set; }
@@ -15,7 +15,9 @@ namespace BeerService
         }
 
         public void TriggerEvent(){
-           Console.WriteLine("IM HERE");
+            Console.WriteLine("IM HERE");
+            Console.WriteLine($"Ounces: {this.Ounces}");
+            Console.WriteLine($"Status: {this.Status}");
         }
     }
 }

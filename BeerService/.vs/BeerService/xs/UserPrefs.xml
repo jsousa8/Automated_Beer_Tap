@@ -2,9 +2,9 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Beer.cs">
     <Files>
       <File FileName="Beer.cs" Line="18" Column="41" />
-      <File FileName="Controllers/BeerController.cs" Line="13" Column="49" />
-      <File FileName="Startup.cs" Line="42" Column="30" />
-      <File FileName="Interface/IBeer.cs" Line="22" Column="1" />
+      <File FileName="Controllers/BeerController.cs" />
+      <File FileName="Startup.cs" />
+      <File FileName="Interface/IBeer.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,8 +12,9 @@
           <Node name="BeerService" expanded="True">
             <Node name="BeerService" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Interface" expanded="True" />
-              <Node name="Beer.cs" selected="True" />
+              <Node name="Interface" expanded="True">
+                <Node name="IBeer.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

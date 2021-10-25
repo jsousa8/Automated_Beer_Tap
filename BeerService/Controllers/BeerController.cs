@@ -17,7 +17,7 @@ namespace BeerService.Controllers
         
         event Action PourBeer;
 
-        private IBeer beer;
+        private IBeverage beer;
 
         public BeerController(ILogger<BeerController> logger)
         {
