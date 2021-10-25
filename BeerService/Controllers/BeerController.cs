@@ -33,7 +33,7 @@ namespace BeerService.Controllers
             if (String.IsNullOrEmpty(beer.Ounces))
             {
                 Console.WriteLine("Inside Get Initial Ounces");
-                beer.Ounces = "12";
+                beer.Ounces = "10";
                 beer.Status = false;
             }
 
