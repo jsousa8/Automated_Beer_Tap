@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{8EC2B01A-B89D-4467-8B97-67215FCCA039}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Beer.cs">
+    <Files>
+      <File FileName="Beer.cs" Line="18" Column="41" />
+      <File FileName="Controllers/BeerController.cs" Line="13" Column="49" />
+      <File FileName="Startup.cs" Line="42" Column="30" />
+      <File FileName="Interface/IBeer.cs" Line="22" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BeerService" expanded="True">
+            <Node name="BeerService" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Interface" expanded="True" />
+              <Node name="Beer.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BeerService PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

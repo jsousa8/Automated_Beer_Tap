@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "BHzmAv91A9MtsX8HM+hvToM9JnJw7Bd+CAmp22iPPSs7imtzmUD1Y14S3ZZuQZOQ7m5tK0nVCQI0KE8Uj9KelQ==",
+  "success": true,
+  "projectFilePath": "/Users/Jake/Programing/Automated_Beer_Tap/BeerService/BeerService.csproj",
+  "expectedPackageFiles": [
+    "/Users/Jake/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/Jake/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/Jake/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/Jake/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/Jake/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/Jake/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

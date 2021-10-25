@@ -1,0 +1,16 @@
+services:
+  beerservice:
+    build:
+      context: /Users/Jake/Programing/BeerService
+      dockerfile: BeerService/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: beerservice
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - /Users/Jake/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/Jake/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
