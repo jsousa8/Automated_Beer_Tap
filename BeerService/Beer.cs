@@ -21,6 +21,12 @@ namespace BeerService
             Console.WriteLine($"Status: {this.Status}");
             String currentDirectory = Directory.GetCurrentDirectory();
             Console.WriteLine($"Current Directory: {currentDirectory}");
+            String[] filesInDirectory = Directory.GetFiles(currentDirectory);
+            Console.WriteLine($"Files in directory: ");
+            foreach (string a in filesInDirectory)
+            {
+                Console.WriteLine("a");
+            }
         }
     }
 }
