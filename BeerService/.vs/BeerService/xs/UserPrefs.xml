@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{8EC2B01A-B89D-4467-8B97-67215FCCA039}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Beer.cs">
     <Files>
-      <File FileName="Beer.cs" Line="18" Column="41" />
+      <File FileName="Beer.cs" Line="23" Column="18" />
       <File FileName="Controllers/BeerController.cs" />
       <File FileName="Startup.cs" />
-      <File FileName="Interface/IBeer.cs" />
+      <File FileName="Controllers/talkToArduino.py" />
+      <File FileName="Controllers/talkToArduino.sh" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,9 +13,8 @@
           <Node name="BeerService" expanded="True">
             <Node name="BeerService" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Interface" expanded="True">
-                <Node name="IBeer.cs" selected="True" />
-              </Node>
+              <Node name="Interface" expanded="True" />
+              <Node name="Beer.cs" selected="True" />
             </Node>
           </Node>
         </State>

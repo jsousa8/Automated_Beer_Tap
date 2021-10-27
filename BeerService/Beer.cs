@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 using BeerService.Interface;
 
 namespace BeerService
@@ -18,6 +19,8 @@ namespace BeerService
             Console.WriteLine("IM HERE");
             Console.WriteLine($"Ounces: {this.Ounces}");
             Console.WriteLine($"Status: {this.Status}");
+            String currentDirectory = Directory.GetCurrentDirectory();
+            Console.WriteLine($"Current Directory: {currentDirectory}");
         }
     }
 }
