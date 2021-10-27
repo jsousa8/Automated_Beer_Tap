@@ -25,7 +25,7 @@ namespace BeerService
             Console.WriteLine($"Files in directory: ");
             foreach (string a in filesInDirectory)
             {
-                Console.WriteLine("a");
+                Console.WriteLine(a);
             }
         }
     }
