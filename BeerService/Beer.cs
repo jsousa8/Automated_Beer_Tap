@@ -21,7 +21,8 @@ namespace BeerService
             Console.WriteLine($"Status: {this.Status}");
             String currentDirectory = Directory.GetCurrentDirectory();
             Console.WriteLine($"Current Directory: {currentDirectory}");
-            String[] filesInDirectory = Directory.GetFiles(currentDirectory);
+            String testPath = "/app/BeerService/";
+            String[] filesInDirectory = Directory.GetFiles(testPath);
             Console.WriteLine($"Files in directory: ");
             foreach (string a in filesInDirectory)
             {
