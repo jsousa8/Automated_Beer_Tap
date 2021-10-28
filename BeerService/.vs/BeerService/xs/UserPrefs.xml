@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{8EC2B01A-B89D-4467-8B97-67215FCCA039}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Beer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Dockerfile">
     <Files>
       <File FileName="Controllers/BeerController.cs" Line="65" Column="10" />
       <File FileName="Startup.cs" />
       <File FileName="Controllers/talkToArduino.py" />
       <File FileName="Controllers/talkToArduino.sh" />
-      <File FileName="Beer.cs" Line="1" Column="1" />
+      <File FileName="Beer.cs" Line="35" Column="1" />
+      <File FileName="Dockerfile" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +15,7 @@
             <Node name="BeerService" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Interface" expanded="True" />
-              <Node name="Beer.cs" selected="True" />
+              <Node name="Dockerfile" selected="True" />
             </Node>
           </Node>
         </State>
