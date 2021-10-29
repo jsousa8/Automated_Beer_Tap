@@ -20,7 +20,7 @@ namespace BeerService
             Console.WriteLine("IM HERE");
             Console.WriteLine($"Ounces: {this.Ounces}");
             Console.WriteLine($"Status: {this.Status}");
-            String path = "/app/Controllers/talkToArduino";
+            String path = "/app/Controllers/talkToArduino.sh";
             /*
             String currentDirectory = Directory.GetCurrentDirectory();
             Console.WriteLine($"Current Directory: {currentDirectory}");
