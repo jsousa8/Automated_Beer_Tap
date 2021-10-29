@@ -20,7 +20,7 @@ namespace BeerService
             Console.WriteLine("IM HERE");
             Console.WriteLine($"Ounces: {this.Ounces}");
             Console.WriteLine($"Status: {this.Status}");
-            String path = "/app/Controllers/talkToArduino.sh";
+            String path = "/app/Controllers/talkToArduino";
             /*
             String currentDirectory = Directory.GetCurrentDirectory();
             Console.WriteLine($"Current Directory: {currentDirectory}");
@@ -35,7 +35,9 @@ namespace BeerService
 
             try
             {
-                Process.Start(path);
+                ProcessStartInfo startInfo = new ProcessStartInfo() { FileName = "/bin/bash", Arguments = path, };
+                Process proc = new Process() { StartInfo = startInfo, };
+                proc.Start();
             }
             catch(Exception e)
             {
