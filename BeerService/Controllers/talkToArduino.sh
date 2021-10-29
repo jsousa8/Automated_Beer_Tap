@@ -1,2 +1,3 @@
 #!/bin/sh
-python3 talkToArduino.py
+#python3 talkToArduino.py
+echo "INSIDE SCRIPT!!!"

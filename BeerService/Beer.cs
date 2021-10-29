@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics;
 using System.IO;
 using BeerService.Interface;
 
@@ -19,6 +20,8 @@ namespace BeerService
             Console.WriteLine("IM HERE");
             Console.WriteLine($"Ounces: {this.Ounces}");
             Console.WriteLine($"Status: {this.Status}");
+            String path = "/app/Controllers/talkToArduino.sh";
+            /*
             String currentDirectory = Directory.GetCurrentDirectory();
             Console.WriteLine($"Current Directory: {currentDirectory}");
             String testPath = "/app/BeerService/";
@@ -28,6 +31,21 @@ namespace BeerService
             {
                 Console.WriteLine(a);
             }
+            */
+
+            try
+            {
+                Process.Start(path);
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine("Could not start process!");
+                Console.WriteLine(e.Message);
+            }
+
+
+
+
         }
     }
 }
